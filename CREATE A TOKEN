@@ -22,7 +22,7 @@ contract MineToken {
 
     function burn(address _account, uint256 _value) public {
         require(addressBalance[_account] >= _value, "LOW balance");
-        totalSupply -= _value;
+        total_Supply -= _value;
         addressBalance[_account] -= _value;
     }
 }
