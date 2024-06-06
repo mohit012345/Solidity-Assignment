@@ -2,7 +2,7 @@
 pragma solidity 0.8.0;
 
 contract MineToken {
-    string public tokek_Name;
+    string public token_Name;
     string public token_Abbrv;
     uint256 public total_Supply;
 
